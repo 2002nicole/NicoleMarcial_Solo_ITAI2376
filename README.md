@@ -1,4 +1,8 @@
-Nicole Marcial
+# Cookie Recipe Adaptation Agent
+
+A single AI agent that helps users adapt cookie recipes through ingredient substitutions, batch size changes, dietary adjustments, and texture guidance.
+
+## Solo Project - Nicole Marcial
 
 ITAI 2376 - Deep Learning
 
@@ -6,16 +10,13 @@ SPRING 2026
 
 Final Course Project AI Agent
 
-# Cookie Recipe Adaptation Agent
-
-A single AI agent that helps users adapt cookie recipes through ingredient substitutions, batch size changes, dietary adjustments, and texture guidance.
 
 ## Problem and Target User
 Baking is sensitive to small ingredient and ratio changes, especially in cookies. Beginners often struggle when they need to halve a recipe, replace an ingredient, or adjust for dietary needs without ruining texture, spread, or structure.
 
 This project solves that problem by building a cookie-focused AI agent that helps users adapt common cookie recipes in a more guided and practical way.
 
-**Target user:** beginner or intermediate home bakers who want clearer help making recipe changes.
+**Target user:** beginner or intermediate home bakers who want clearer help making recipe changes based on their needs.
 
 ## Chosen Option
 **Option A — Single AI Agent**
@@ -23,15 +24,14 @@ This project solves that problem by building a cookie-focused AI agent that help
 I stayed with the single-agent path from my Midterm blueprint. This problem is focused enough that one well-designed agent with retrieval and multiple tools is more appropriate than a multi-agent team.
 
 ## Architecture Overview
-This project uses a single LangChain-based AI agent that reads a user’s cookie-related request, reasons about what kind of adaptation is needed, uses the appropriate tool(s), and returns a grounded response.
+This project uses a single LangChain-based AI agent designed specifically for cookie recipe adaptation. The agent takes cookied-related user request, reassons about what kind of help is needed, chooses the most appropiate custom tool, reads the tool ouput, and returns a beginner-friendly respone.
 
-The system supports:
-- cookie recipe retrieval
-- ingredient scaling
-- substitution guidance
-- full recipe adaptation
+The system has three main layers:
 
-The agent also uses a small cookie baking knowledge base and retrieval-augmented generation (RAG) to ground some of its baking guidance in external reference material instead of relying only on general language-model knowledge.
+1. It uses a filtered cookie recipe dataset together with a small cookie baking knowledge base. These text sources are converted into LangChain documents, split into chunks, embedded with the Hugging Face sentence-transformer model, and stored in a local Chroma vector database. This creates the retrieval-augmented generation (RAG) so the agent can pull in recipe and baking context instead of relying only on general model knoweldge.
+2. The project definess custom tools for the main cookie-adaptation tasks. The recipe retrieval tools pulls relevant recipe and baking guidance from the retriever. The ingredient scaling tool rescales ingredient quantities when the user changes batch size. The subsitution guidance tool suggests cookie-friendly replacements and explains likely effects on texture, spead, flavor, structure, or moisture. The recipe adaptaion tool adapts a full cookie recipe based on requests.
+3. The LangChain agent uses OpenAI's reasoning engine. The agent inteprets the user's request, decides whhich tool should be used, observes the returned result, and then produces the final answer. The project is intentionally limited to cookie recipes only so the agent stays focused and more reliable for the final build.
+
 
 ### Architecture Diagram
 
@@ -55,11 +55,12 @@ The agent also uses a small cookie baking knowledge base and retrieval-augmented
 ### LLM Provider
 - **OpenAI** — used as the language model provider for the agent
 
-### Retrieval / Knowledge
-- **SentenceTransformers embeddings**
-- **FAISS vector store**
-- small custom cookie baking knowledge base
-- filtered cookie recipe dataset
+### Embeddings and Retrieval
+- **Hugging Face Embeddings** — used for local text embeddings
+- **Embedding model:** `sentence-transformers/all-MiniLM-L6-v2`
+- **Chroma** — used as the local vector store for recipe and baking knowledge retrieval
+- **LangChain Retriever** — used to retrieve the most relevant recipe and knowledge-base chunks for the agent
+
 
 ### Custom Tools
 - **Recipe Retrieval Tool** — retrieves relevant cookie recipe or baking guidance context
@@ -165,7 +166,7 @@ The agent scales the ingredient quantities proportionally and returns a smaller-
 - The baking knowledge base is intentionally small and focused, not a complete baking encyclopedia.
 
 ## Demo Video
-[Insert demo link here]
+[]
 
 ## Repository Contents
 - `agent.ipynb` — main notebook implementation
