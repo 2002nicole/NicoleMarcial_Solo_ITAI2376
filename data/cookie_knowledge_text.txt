@@ -1,0 +1,77 @@
+# Cookie Baking Knowledge Base
+
+## Cookie Texture Basics
+Chewier cookies usually come from higher moisture and a softer center. Brown sugar, melted butter, and shorter baking can all push cookies toward a chewier result.
+Crispier cookies usually come from lower-moisture formulas, more granulated sugar, and longer baking.
+Small changes in sugar, fat, and bake time can shift the same cookie recipe toward chewy, crispy, or cakey results.
+
+Sources:
+- King Arthur Baking: "Cookie chemistry"
+- King Arthur Baking: "Cookie science: How to achieve your perfect chocolate chip cookie"
+
+## Butter and Fat
+Butter adds flavor and affects spread. Melted butter often increases spread and can lead to denser or fudgier centers, while softened butter is commonly used for creaming because it helps incorporate air into the dough.
+If cookies spread too much, warm fat, excess liquid, or inaccurate ingredient ratios may be part of the problem.
+
+Sources:
+- King Arthur Baking: "Cookie chemistry"
+- King Arthur Baking: "The secret to fudgier cookies? It's all about the butter."
+- King Arthur Baking: "Why are my cookies spreading?"
+
+## Sugar Effects
+Brown sugar contains molasses, which adds moisture and tends to support softer, chewier cookies.
+Granulated sugar is often associated with more spread and a crisper texture.
+Changing the balance between brown sugar and white sugar can noticeably change cookie texture.
+
+Sources:
+- King Arthur Baking: "Cookie chemistry"
+- King Arthur Baking: "Soft Brown Sugar Cookies"
+
+## Eggs and Egg Substitutes
+Eggs help with structure, binding, and moisture. Removing them can make cookies more fragile or change how they spread and set.
+Common egg substitutes in baking include flax egg, chia egg, applesauce, mashed banana, yogurt, and commercial egg replacers, but each substitute can change flavor or texture.
+A common flax egg is made from 1 tablespoon ground flaxseed mixed with 3 tablespoons water for each egg.
+
+Sources:
+- King Arthur Baking: "No eggs? Here's your guide for substituting eggs"
+- King Arthur Baking: "Our best recipes and tips for baking egg free"
+
+## Dairy-Free Adjustments
+Butter can often be replaced with plant-based butter or coconut oil, but flavor and spread may change.
+If coconut oil is used, whether it is melted or solid can affect the final texture.
+
+Sources:
+- King Arthur Baking: "Cookie chemistry"
+- King Arthur Baking: "The secret to fudgier cookies? It's all about the butter."
+
+## Gluten-Free Adjustments
+For many non-yeasted recipes, a 1-to-1 gluten-free flour blend can be used in place of all-purpose flour.
+Even when the swap works, gluten-free cookies may be more delicate or somewhat different in texture than the original version.
+
+Sources:
+- King Arthur Baking: "Gluten-Free Baking"
+- King Arthur Baking: "Gluten-Free Chocolate Chip Cookies"
+
+## Leavening
+Baking soda and baking powder are not the same. Baking powder already contains the components needed to create lift, while baking soda needs an acidic partner in the recipe.
+In cookies, more leavening generally creates a puffier cookie, while lower leavening can reduce puffiness.
+Baking soda also supports browning.
+
+Sources:
+- King Arthur Baking: "What's the difference between baking soda and baking powder substitutions"
+- King Arthur Baking: "Drop cookies: beyond the fork"
+- Sally's Baking Addiction: "Baking Powder vs. Baking Soda"
+
+## Chilling Dough and Spread
+Chilling cookie dough usually reduces spread and can improve flavor.
+Refrigerated dough can develop a deeper flavor over time, and chilling is especially helpful when dough contains melted butter or otherwise feels warm.
+If cookies spread too much, checking ingredient ratios, dough temperature, and flour measurement is a good starting point.
+
+Sources:
+- King Arthur Baking: "Chilling cookie dough: Does it make a difference?"
+- King Arthur Baking: "Classic Chocolate Chip Cookies"
+- King Arthur Baking: "Why are my cookies spreading?"
+
+## Project Guidance for Substitutions
+A substitution should not just replace the ingredient by name. It should also consider the ingredient's role in the recipe, such as flavor, moisture, structure, spread, or chewiness.
+If the likely outcome is uncertain, the response should say so clearly instead of sounding overly confident.
