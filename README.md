@@ -24,7 +24,7 @@ This project solves that problem by building a cookie-focused AI agent that help
 I stayed with the single-agent path from my Midterm blueprint. This problem is focused enough that one well-designed agent with retrieval and multiple tools is more appropriate than a multi-agent team.
 
 ## Architecture Overview
-This project uses a single LangChain-based AI agent designed specifically for cookie recipe adaptation. The agent takes cookied-related user request, reassons about what kind of help is needed, chooses the most appropiate custom tool, reads the tool ouput, and returns a beginner-friendly respone.
+This project uses a single LangChain-based AI agent designed specifically for cookie recipe adaptation. The agent takes cookied-related user request, reasons about what kind of help is needed, chooses the most appropriate custom tool, reads the tool ouput, and returns a beginner-friendly respone.
 
 The system has three main layers:
 
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 ```
 
 ### Environment Variables
-Create a `.env` file based on `.env.example` and add your API key(s).
+Create a `.env` file based on `.env.example` and add your own OpenAI API key.
 
 Example:
 ```env
@@ -197,5 +197,5 @@ This projects applies several deep learning concepts from ITAI 2376. The agent u
 
 The project also uses embeddings and RAG (retrieval-augmented generation). Recipes and baking knowledge are converted into embeddings, stored in a vector database, and retrieved when the agent needs relevant context. This connects to Module 10, which explains how embeddings and RAG help agents ground their answers in external knowledge instead of relying only on model memory.
 
-Finally, the project reflects the course's agent design modules because it combines an LLM w/ retrieval, custom tools, and a tool using reasoning workflow. The agent interprets the request, chooses a tool, reads the result, and then produces a final respose. That matches the single-agent design approach discussed in Module 09 and 10.
+Finally, the project reflects the course's agent design modules because it combines an LLM w/ retrieval, custom tools, and a tool using reasoning workflow. The agent interprets the request, chooses a tool, reads the result, and then produces a final response. That matches the single-agent design approach discussed in Module 09 and 10.
 
