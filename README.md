@@ -1,9 +1,14 @@
+Nicole Marcial
+
+ITAI 2376 - Deep Learning
+
+SPRING 2026
+
+Final Course Project AI Agent
+
 # Cookie Recipe Adaptation Agent
 
 A single AI agent that helps users adapt cookie recipes through ingredient substitutions, batch size changes, dietary adjustments, and texture guidance.
-
-## Solo Project
-Nicole Marcial
 
 ## Problem and Target User
 Baking is sensitive to small ingredient and ratio changes, especially in cookies. Beginners often struggle when they need to halve a recipe, replace an ingredient, or adjust for dietary needs without ruining texture, spread, or structure.
@@ -29,7 +34,7 @@ The system supports:
 The agent also uses a small cookie baking knowledge base and retrieval-augmented generation (RAG) to ground some of its baking guidance in external reference material instead of relying only on general language-model knowledge.
 
 ### Architecture Diagram
-![Architecture Diagram](docs/architecture.png)
+
 
 ### How the Agent Works
 1. The user gives a cookie-related request.
