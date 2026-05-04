@@ -192,3 +192,10 @@ The agent scales the ingredient quantities proportionally and returns a smaller-
 ## Midterm-to-Final Continuity
 This final project follows the core direction of my Midterm blueprint: a focused single AI agent for cookie recipe adaptation using a transformer-based language model, retrieval, and custom tools.
 
+## Deep Learning Connection
+This projects applies several deep learning concepts from ITAI 2376. The agent uses as transformer-based language model because the task is entirely text based and must understand user requests, interpet recipe text, and generate updated cookie guidance. This connects expecially to Module 05 where transformers and attention are used to model language context.
+
+The project also uses embeddings and RAG (retrieval-augmented generation). Recipes and baking knowledge are converted into embeddings, stored in a vector database, and retrieved when the agent needs relevant context. This connects to Module 10, which explains how embeddings and RAG help agents ground their answers in external knowledge instead of relying only on model memory.
+
+Finally, the project reflects the course's agent design modules because it combines an LLM w/ retrieval, custom tools, and a tool using reasoning workflow. The agent interprets the request, chooses a tool, reads the result, and then produces a final respose. That matches the single-agent design approach discussed in Module 09 and 10.
+
