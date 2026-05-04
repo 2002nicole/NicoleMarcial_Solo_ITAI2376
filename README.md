@@ -73,13 +73,24 @@ The system has three main layers:
 - **Gradio** as an optional user-facing interface
 
 ## Data Sources
-This project uses a filtered cookie-focused dataset derived from Food.com recipes available through Kaggle, along with a small baking knowledge base created from summarized baking references.
 
-Because some source datasets are large and/or third-party hosted, the full raw dataset is not redistributed in this repository. See the `data/` folder and notes below for how the project data was prepared.
+This project uses a filtered cookie-focused recipe dataset and a small summarized baking knowledge base.
 
-### Main Sources
+### Recipe Dataset
 - Food.com recipe dataset from Kaggle
-- cookie baking knowledge notes summarized from baking references such as King Arthur Baking
+- Used to retrieve cookie recipe examples and ingredient patterns
+- The raw full dataset is not fully redistributed in this repository. To reproduce the dataset setup, download it from the original Kaggle source(s):
+
+  - [Food.com Recipes with Ingredients and Tags (Kaggle)](https://www.kaggle.com/datasets/realalexanderwei/food-com-recipes-with-ingredients-and-tags)
+
+### Baking Knowledge References
+The cookie baking knowledge base in this project was manually summarized from baking references and paraphrased into short project notes.
+
+Main references:
+- [King Arthur Baking — Cookie chemistry](https://www.kingarthurbaking.com/blog/2016/03/14/cookie-chemistry-2)
+- [King Arthur Baking — No eggs? Here's your guide for substituting eggs](https://www.kingarthurbaking.com/blog/2021/01/21/guide-for-substituting-eggs-best-egg-replacers)
+- [King Arthur Baking — Chilling cookie dough: Does it make a difference?](https://www.kingarthurbaking.com/blog/2015/05/17/chilling-cookie-dough)
+- [King Arthur Baking — Why are my cookies spreading?](https://www.kingarthurbaking.com/blog/2023/12/19/why-are-my-cookies-spreading)
 
 ## Installation
 
@@ -181,6 +192,3 @@ The agent scales the ingredient quantities proportionally and returns a smaller-
 ## Midterm-to-Final Continuity
 This final project follows the core direction of my Midterm blueprint: a focused single AI agent for cookie recipe adaptation using a transformer-based language model, retrieval, and custom tools.
 
-## References
-- Food.com recipe datasets via Kaggle
-- King Arthur Baking references used for summarized cookie baking guidance
