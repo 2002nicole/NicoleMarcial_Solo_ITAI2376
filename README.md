@@ -112,6 +112,9 @@ OPENAI_API_KEY=your_key_here
 
 ## How to Run the Agent
 
+### Notebook Environment Note
+This project was developed in Google Colab and uses Google Drive for storing the dataset and project files. If running in Colab, mount the Google Drive first if prompted by the notebook.
+
 ### Notebook Version
 Open **`agent.ipynb`** and run the notebook from top to bottom.
 
