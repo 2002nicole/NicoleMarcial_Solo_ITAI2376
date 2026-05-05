@@ -34,6 +34,7 @@ The system has three main layers:
 
 
 ### Architecture Diagram
+<img width="540" height="959" alt="architecture" src="https://github.com/user-attachments/assets/2b573b68-4d9c-4ca4-b817-578ecc538d0e" />
 
 
 ### How the Agent Works
@@ -188,6 +189,7 @@ The agent scales the ingredient quantities proportionally and returns a smaller-
 - `.env.example` — template for environment variables
 - `.gitignore` — excluded files
 - `docs/architecture.png` — architecture diagram
+- `docs/MD_Blueprint_Marcial_Nicole_ITAI2376.pdf` —  mid-term project blueprint
 - `demo/` or external link — demo video
 - `data/` — sample knowledge base / supporting project data
 - `REFLECTION.md` — final reflection document
