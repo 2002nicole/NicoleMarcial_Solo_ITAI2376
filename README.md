@@ -181,7 +181,7 @@ The agent scales the ingredient quantities proportionally and returns a smaller-
 - The baking knowledge base is intentionally small and focused, not a complete baking encyclopedia.
 
 ## Demo Video
-[]
+[demo.mp4]
 
 ## Repository Contents
 - `agent.ipynb` — main notebook implementation
